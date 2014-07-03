@@ -183,10 +183,11 @@ When the `Reflect.Loader.prototype.**has**` method is called with argument <var>
 6.  Let _modules_ be the value of _loaderRecord._[[Modules]],
 7.  Repeat for each Record {[[key]], [[value]]} _p_ that is an element of _modules_,
       1.  If [SameValue](#sec-samevalue)(_p_.[[key]], _name_) is **true**, then return                  **true**.
-8.  Return **false**.        <div class="note">
+8.  Return **false**.
 
 <span class="nh">NOTE</span> This method does not call any hooks or run any module code.
-        </div>      </section>      <section id="sec-reflect.loader.prototype.import">
+
+</section>      <section id="sec-reflect.loader.prototype.import">
 
 # <span class="secnum" id="sec-26.3.3.8">[26.3.3.8](#sec-reflect.loader.prototype.import "link to this section")</span> Reflect.Loader.prototype.import ( name [ , options ] )
 
